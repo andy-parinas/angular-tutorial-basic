@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'complete-guide';
-  loadedFeature: string = 'recipes'
+  loadedFeature = 'recipes';
 
 
-  onNavigate(feature: string){
+  onNavigate(feature: string) {
     this.loadedFeature = feature;
   }
 
